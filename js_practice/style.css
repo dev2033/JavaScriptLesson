@@ -4,8 +4,74 @@
     background: green;
 } */
 
-#block {
+
+/* #block {
     width: 200px;
     height: 100px;
     background: green;
+} */
+
+
+/*Выпадающее меню-----------*/
+
+
+/* .menu-item {
+    border: 2px solid #66CDAA;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
 }
+
+.menu-item .submenu {
+    height: 40px;
+    width: 120px;
+    background: green;
+    position: absolute;
+    cursor: pointer;
+} */
+
+
+/*Выпадающее меню-----------*/
+
+
+/*
+ * Вкладки табы (Tabs) 
+ */
+
+#tabs .tab {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+
+#tabs .whiteborder {
+    border: 1px solid #707070;
+    border-bottom: 1px solid #fff;
+    border-radius: 3px 3px 0 0;
+}
+
+#tabs .tabContent {
+    width: 300px;
+    height: 60px;
+    background-origin: 1px solid #707070;
+    position: relative;
+    z-index: 1;
+    top: -1;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+}
+
+#tabs .hide {
+    display: none;
+}
+
+#tabs .show {
+    display: block;
+}
+
+
+/*
+ * Вкладки табы (Tabs) 
+ */
